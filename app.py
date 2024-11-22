@@ -10,7 +10,7 @@ st.title('Rasmlarni klassifikatsiya qiluvchi model')
 st.write("Klasslar: Car Airplane Boat Toy(O'yinchoq)  Beetle(Hashoratlar) Helmet(Kaska) Footwear(oyoqkiyim) Hat(shlyapa) Dairy(sut)")
 # Fayl yo‘lini aniqlash
 model_path = pathlib.Path('transport_model.pkl')
-
+#uzgarish
 # Rasm yuklash
 files = st.file_uploader("Rasm yuklash", type=["avif", "png", "jpeg", "gif", "svg", "jfif"])
 if files:
